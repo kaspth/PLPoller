@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF3FBED5161D883A00F09740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3FBED4161D883A00F09740 /* UIKit.framework */; };
+		BF3FBED7161D883A00F09740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3FBED6161D883A00F09740 /* Foundation.framework */; };
+		BF3FBED9161D883A00F09740 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3FBED8161D883A00F09740 /* CoreGraphics.framework */; };
+		BF3FBEDF161D883A00F09740 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF3FBEDD161D883A00F09740 /* InfoPlist.strings */; };
+		BF3FBEE1161D883A00F09740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FBEE0161D883A00F09740 /* main.m */; };
+		BF3FBEE5161D883A00F09740 /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FBEE4161D883A00F09740 /* PCAppDelegate.m */; };
+		BF3FBEE7161D883A00F09740 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3FBEE6161D883A00F09740 /* Default.png */; };
+		BF3FBEE9161D883A00F09740 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3FBEE8161D883A00F09740 /* Default@2x.png */; };
+		BF3FBEEB161D883A00F09740 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3FBEEA161D883A00F09740 /* Default-568h@2x.png */; };
+		BF3FBEEE161D883A00F09740 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3FBEEC161D883A00F09740 /* MainStoryboard.storyboard */; };
+		BF3FBEF1161D883A00F09740 /* PLPollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FBEF0161D883A00F09740 /* PLPollerViewController.m */; };
+		BF3FBEF9161D88E200F09740 /* PLPoller.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FBEF8161D88E200F09740 /* PLPoller.m */; };
+		BF6DD301161F3F740024C2BF /* MIT-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = BF6DD300161F3F740024C2BF /* MIT-LICENSE.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF3FBED0161D883A00F09740 /* PollerTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PollerTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3FBED4161D883A00F09740 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF3FBED6161D883A00F09740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF3FBED8161D883A00F09740 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF3FBEDC161D883A00F09740 /* PollerTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PollerTestApp-Info.plist"; sourceTree = "<group>"; };
+		BF3FBEDE161D883A00F09740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF3FBEE0161D883A00F09740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF3FBEE2161D883A00F09740 /* PollerTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PollerTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		BF3FBEE3161D883A00F09740 /* PCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCAppDelegate.h; sourceTree = "<group>"; };
+		BF3FBEE4161D883A00F09740 /* PCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
+		BF3FBEE6161D883A00F09740 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BF3FBEE8161D883A00F09740 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BF3FBEEA161D883A00F09740 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF3FBEED161D883A00F09740 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BF3FBEEF161D883A00F09740 /* PLPollerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLPollerViewController.h; sourceTree = "<group>"; };
+		BF3FBEF0161D883A00F09740 /* PLPollerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLPollerViewController.m; sourceTree = "<group>"; };
+		BF3FBEF7161D88E200F09740 /* PLPoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPoller.h; sourceTree = "<group>"; };
+		BF3FBEF8161D88E200F09740 /* PLPoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPoller.m; sourceTree = "<group>"; };
+		BF6DD300161F3F740024C2BF /* MIT-LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "MIT-LICENSE.md"; path = "TimerApp/MIT-LICENSE.md"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF3FBECD161D883A00F09740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3FBED5161D883A00F09740 /* UIKit.framework in Frameworks */,
+				BF3FBED7161D883A00F09740 /* Foundation.framework in Frameworks */,
+				BF3FBED9161D883A00F09740 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3FBEC5161D883A00F09740 = {
+			isa = PBXGroup;
+			children = (
+				BF6DD300161F3F740024C2BF /* MIT-LICENSE.md */,
+				BF3FBEDA161D883A00F09740 /* PollerTestApp */,
+				BF3FBED3161D883A00F09740 /* Frameworks */,
+				BF3FBED1161D883A00F09740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF3FBED1161D883A00F09740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF3FBED0161D883A00F09740 /* PollerTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF3FBED3161D883A00F09740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF3FBED4161D883A00F09740 /* UIKit.framework */,
+				BF3FBED6161D883A00F09740 /* Foundation.framework */,
+				BF3FBED8161D883A00F09740 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF3FBEDA161D883A00F09740 /* PollerTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				BF3FBEE3161D883A00F09740 /* PCAppDelegate.h */,
+				BF3FBEE4161D883A00F09740 /* PCAppDelegate.m */,
+				BF3FBEEC161D883A00F09740 /* MainStoryboard.storyboard */,
+				BF3FBEEF161D883A00F09740 /* PLPollerViewController.h */,
+				BF3FBEF0161D883A00F09740 /* PLPollerViewController.m */,
+				BF3FBEF7161D88E200F09740 /* PLPoller.h */,
+				BF3FBEF8161D88E200F09740 /* PLPoller.m */,
+				BF3FBEDB161D883A00F09740 /* Supporting Files */,
+			);
+			name = PollerTestApp;
+			path = TimerApp;
+			sourceTree = "<group>";
+		};
+		BF3FBEDB161D883A00F09740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF3FBEDC161D883A00F09740 /* PollerTestApp-Info.plist */,
+				BF3FBEDD161D883A00F09740 /* InfoPlist.strings */,
+				BF3FBEE0161D883A00F09740 /* main.m */,
+				BF3FBEE2161D883A00F09740 /* PollerTestApp-Prefix.pch */,
+				BF3FBEE6161D883A00F09740 /* Default.png */,
+				BF3FBEE8161D883A00F09740 /* Default@2x.png */,
+				BF3FBEEA161D883A00F09740 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF3FBECF161D883A00F09740 /* PollerTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3FBEF4161D883A00F09740 /* Build configuration list for PBXNativeTarget "PollerTestApp" */;
+			buildPhases = (
+				BF3FBECC161D883A00F09740 /* Sources */,
+				BF3FBECD161D883A00F09740 /* Frameworks */,
+				BF3FBECE161D883A00F09740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PollerTestApp;
+			productName = TimerApp;
+			productReference = BF3FBED0161D883A00F09740 /* PollerTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3FBEC7161D883A00F09740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Kasper Timm";
+			};
+			buildConfigurationList = BF3FBECA161D883A00F09740 /* Build configuration list for PBXProject "PollerTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF3FBEC5161D883A00F09740;
+			productRefGroup = BF3FBED1161D883A00F09740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3FBECF161D883A00F09740 /* PollerTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF3FBECE161D883A00F09740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3FBEDF161D883A00F09740 /* InfoPlist.strings in Resources */,
+				BF3FBEE7161D883A00F09740 /* Default.png in Resources */,
+				BF3FBEE9161D883A00F09740 /* Default@2x.png in Resources */,
+				BF3FBEEB161D883A00F09740 /* Default-568h@2x.png in Resources */,
+				BF3FBEEE161D883A00F09740 /* MainStoryboard.storyboard in Resources */,
+				BF6DD301161F3F740024C2BF /* MIT-LICENSE.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF3FBECC161D883A00F09740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3FBEE1161D883A00F09740 /* main.m in Sources */,
+				BF3FBEE5161D883A00F09740 /* PCAppDelegate.m in Sources */,
+				BF3FBEF1161D883A00F09740 /* PLPollerViewController.m in Sources */,
+				BF3FBEF9161D88E200F09740 /* PLPoller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF3FBEDD161D883A00F09740 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3FBEDE161D883A00F09740 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF3FBEEC161D883A00F09740 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3FBEED161D883A00F09740 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF3FBEF2161D883A00F09740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF3FBEF3161D883A00F09740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF3FBEF5161D883A00F09740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimerApp/PollerTestApp-Prefix.pch";
+				INFOPLIST_FILE = "TimerApp/PollerTestApp-Info.plist";
+				PRODUCT_NAME = PollerTestApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF3FBEF6161D883A00F09740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimerApp/PollerTestApp-Prefix.pch";
+				INFOPLIST_FILE = "TimerApp/PollerTestApp-Info.plist";
+				PRODUCT_NAME = PollerTestApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3FBECA161D883A00F09740 /* Build configuration list for PBXProject "PollerTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3FBEF2161D883A00F09740 /* Debug */,
+				BF3FBEF3161D883A00F09740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3FBEF4161D883A00F09740 /* Build configuration list for PBXNativeTarget "PollerTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3FBEF5161D883A00F09740 /* Debug */,
+				BF3FBEF6161D883A00F09740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3FBEC7161D883A00F09740 /* Project object */;
+}
